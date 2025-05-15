@@ -9,6 +9,10 @@
     <description>xuecheng-plus-parent</description>
     <modules>
         <module>xuecheng-plus-base</module>
+        <module>xuecheng-plus-content</module>
+        <module>xuecheng-plus-content/xuecheng-plus-content-model</module>
+        <module>xuecheng-plus-content/xuecheng-plus-content-service</module>
+        <module>xuecheng-plus-content/xuecheng-plus-content-api</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -61,6 +65,8 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+
             <!-- lombok，简化类的构建-->
             <dependency>
                 <groupId>org.projectlombok</groupId>
