@@ -1,0 +1,31 @@
+POST http://localhost:63040/content/course/list?pageNo=2&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202002",
+  "courseName": ""
+}
+
+### 创建课程
+POST {{content_host}}/content/course
+Content-Type: application/json
+
+{
+
+  "mt": "",
+  "st": "",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": "",
+  "charge": "201000",
+  "price": 0,
+  "originalPrice":0,
+  "qq": "",
+  "wechat": "",
+  "phone": "",
+  "validDays": 365
+}
